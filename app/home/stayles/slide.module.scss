@@ -1,0 +1,23 @@
+.slider_container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  .slick-slide {
+    padding: 0 10px; // 10px left + 10px right = 20px ընդհանուր
+  }
+}
+
+.slide_item {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s ease;
+
+  img {
+    width: 200px !important;
+    height: 200px !important;
+    object-fit: contain;
+  }
+}
